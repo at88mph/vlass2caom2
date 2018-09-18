@@ -210,6 +210,8 @@ def accumulate_wcs(bp):
     # - provenance for the catalog plane
     # give the catalog artifact the same part/chunk information as the
     # quicklook image
+    #
+    # dataProductType should be cube for the coarse cube
 
 
 def get_position_resolution(header):
