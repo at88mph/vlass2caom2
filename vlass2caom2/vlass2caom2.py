@@ -208,6 +208,8 @@ def accumulate_wcs(bp):
     # - mime type == 'text/csv'
     # - remove the .header from the file name when making the artifact uris
     # - provenance for the catalog plane
+    # give the catalog artifact the same part/chunk information as the
+    # quicklook image
 
 
 def get_position_resolution(header):
